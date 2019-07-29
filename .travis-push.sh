@@ -2,9 +2,9 @@
 # Credit: https://gist.github.com/willprice/e07efd73fb7f13f917ea
 
 #看云版本库地址:
-KY_REPO=https://git.kancloud.cn/willseecloud/kubernetes-handbook.git
+KY_REPO=https://git.kancloud.cn/evcard_cd/zhidu_evcard_cd.git
 #github仓库地址：
-GH_REPO=https://github.com/willzhang/kubernetes-handbook.git
+GH_REPO=https://github.com/ERIC-HR/kanyun.git
 
 KY_REPO_URL=https://${KANCLOUD_USER}:${KANCLOUD_PASS}@$(echo $KY_REPO | awk -F'//' '{print $2}')
 GH_REPO_URL=https://${GITHUB_TOKEN}@$(echo $GH_REPO | awk -F'//' '{print $2}')
